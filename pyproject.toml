@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fdetect"
+version = "1.0.0"
+description = ""
+authors = ["Kokonico <kokonico@duck.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+opencv-python = "^4.10.0.84"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
